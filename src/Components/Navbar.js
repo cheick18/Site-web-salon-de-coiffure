@@ -8,13 +8,13 @@ const CustomNavbar = () => {
    
     <Navbar bg="light" expand="lg">
         <div className='container'>
-      <Navbar.Brand href="/">Logo</Navbar.Brand> {/* Le logo sous forme de texte */}
+      <Navbar.Brand to="/">Logo</Navbar.Brand> {/* Le logo sous forme de texte */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto"> {/* Aligner les liens à droite */}
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/rendez-vous">Rendez-vous</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link to="/">Home</Nav.Link>
+          <Nav.Link to="/rendez-vous">Rendez-vous</Nav.Link>
+          <Nav.Link to="/about">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       </div>
