@@ -20,6 +20,12 @@ const RendezVousForm = () => {
     e.preventDefault();
     // Ici vous pouvez ajouter la logique de soumission du formulaire
     console.log('Form Submitted:', formData);
+  try {
+    
+  } catch (error) {
+    
+  }
+      
   };
 
   return (
