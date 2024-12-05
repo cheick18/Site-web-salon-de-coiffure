@@ -8,7 +8,7 @@ const CustomNavbar = () => {
    
     <Navbar bg="light" expand="lg">
         <div className='container'>
-      <Navbar.Brand href="#">Logo</Navbar.Brand> {/* Le logo sous forme de texte */}
+      <Navbar.Brand href="/">Logo</Navbar.Brand> {/* Le logo sous forme de texte */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto"> {/* Aligner les liens à droite */}

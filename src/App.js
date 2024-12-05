@@ -13,7 +13,7 @@ function App() {
       <CustomNavbar />
     <div className="App">
         <Routes>
-        <Route index element={<Home />} />
+      
         <Route path="/" element={< Home/>} />
           <Route path="/rendez-vous" element={< Rendezvous/>} />
           <Route path="/about" element={<About />} />
